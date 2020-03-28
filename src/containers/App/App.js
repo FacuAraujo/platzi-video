@@ -22,6 +22,21 @@ const App = () => (
       </Carousel>
     </Categories>
 
+    <Categories title="Tendencias">
+      <Carousel>
+        <CarouselItem />
+        <CarouselItem />
+        <CarouselItem />
+      </Carousel>
+    </Categories>
+
+    <Categories title="Originales de Platzi Video">
+      <Carousel>
+        <CarouselItem />
+        <CarouselItem />
+      </Carousel>
+    </Categories>
+
     <Footer />
   </div>
 );
